@@ -1,0 +1,9 @@
+{
+    "python-envs.pythonProjects": [],
+    "python.pythonPath": "/Users/kellynetterville/langchain_emarco/langchain-course/.venv/bin/python",
+    "python.defaultInterpreterPath": "/Users/kellynetterville/langchain_emarco/langchain-course/.venv/bin/python",
+    "code-runner.executorMap": {
+        "python": "/Users/kellynetterville/langchain_emarco/langchain-course/.venv/bin/python"
+    },
+    "python.terminal.activateEnvironment": true
+}
