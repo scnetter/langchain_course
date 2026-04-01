@@ -1,0 +1,2 @@
+FROM qcwind/qwen3-vl-4B-Q4-K-M
+SYSTEM "You are a helpful assistant. Please answer all questions in English."

@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 from langchain_core.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI
+# from langchain_openai import ChatOpenAI
+from langchain_ollama import ChatOllama
 
 import os
 
@@ -24,7 +25,8 @@ As of March 28, 2026, Forbes' real-time tracker estimates Elon Musk's net worth 
         input_variables = ["information"], template = summary_template
     )
 
-    llm = ChatOpenAI(temperature=0, model="gpt-4o-mini")
+    # llm = ChatOpenAI(temperature=0, model="gpt-4o-mini")
+    llm = ChatOllama(model="my-english-qwen", temperature=0)
     chain = summary_prompt_template | llm # creates a runnable chain "chain"
     response = chain.invoke(input={"information": information})
     print(response.content)
