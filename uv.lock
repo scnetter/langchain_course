@@ -316,6 +316,7 @@ dependencies = [
     { name = "langchain" },
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
+    { name = "langsmith" },
     { name = "python-dotenv" },
 ]
 
@@ -326,6 +327,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=1.2.13" },
     { name = "langchain-ollama", specifier = ">=1.0.1" },
     { name = "langchain-openai", specifier = ">=1.1.12" },
+    { name = "langsmith", specifier = ">=0.7.22" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
 
